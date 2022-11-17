@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Varela+Round&display=swap');
+
+div {
+  border: 1px solid #FEF5FA;
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 30px;
+  box-shadow: #B0D5F3;
+  text-align: center;
+  width: 600px;
+  height: auto;
+  margin: 30px auto 30px;
+}
+
+body {
+  background-color: #FEF5FA
+  ;
+  font-family:'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1,5;
+}
+
+h1 {
+color: #145CC9;
+font-size: 24px;
+font-family:'Varela Round', sans-serif;
+}
+
+h2 {
+  color: #B0D5F3;
+  font-size: 18px;
+  font-family:'Varela Round', sans-serif;
+}
+
+a {
+color :#145CC9;
+text-decoration: none;
+align-self: hover;
+}
+
+img {
+  border-radius: 5px;
+  }
+
+  @media (max-width: 960px) {
+    /* Pour un écran < 960px, cette classe CSS s'applique */
+    .container {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* Pour un écran < 720px, cette classe CSS s'applique */
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* Pour un écran < 540px, cette classe CSS s'applique */
+    .container {
+      width: 300px;
+    }
+  }
